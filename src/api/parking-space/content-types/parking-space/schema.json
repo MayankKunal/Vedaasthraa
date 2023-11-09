@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parking_spaces",
+  "info": {
+    "singularName": "parking-space",
+    "pluralName": "parking-spaces",
+    "displayName": "parkingSpace"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_Id": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "capacity": {
+      "type": "integer"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "status": {
+      "type": "integer"
+    }
+  }
+}

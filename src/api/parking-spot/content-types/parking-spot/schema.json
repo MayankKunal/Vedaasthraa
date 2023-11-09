@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parking_spots",
+  "info": {
+    "singularName": "parking-spot",
+    "pluralName": "parking-spots",
+    "displayName": "parkingSpot"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_Id": {
+      "type": "string"
+    },
+    "space_Id": {
+      "type": "string"
+    },
+    "floor": {
+      "type": "integer"
+    },
+    "spot": {
+      "type": "string"
+    }
+  }
+}
